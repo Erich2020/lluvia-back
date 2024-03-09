@@ -1,0 +1,55 @@
+Se requiere una base de datos.
+Ventas realizadas.
+    Folio bigint Autoincremento
+    Lista de Productos varchar(9999)
+        Codigo Producto
+        Descripcion del Producto
+        Cantidad vendida
+        precio unitario
+        Importe
+    Total de Articulos vendidos  Decimal
+    Total de Venta $ Decimal
+    Fecha de venta  varchar(15)
+    Hora de Venta  varchar(15)
+    Usuario que vende varchar(100)
+
+Productos.
+    Codigo varchar(60)
+    Descripcion varchar(9999)
+    Costo  Decimal
+    Precio Venta Decimal
+    cantidad existencia Decimal
+
+Usuarios.
+    ID  int Autoincremento
+    NombreCompleto varchar(200)
+    USERNAME varchar(20)
+    PWD varchar(70)
+    Rol varchar(20)
+
+
+Create Database Temporada;
+use Temporada;
+Create Table Tickets (
+id bigint not null autoincrement,
+listaproductos varchar(9999),
+total Decimal(8,2),
+cantidad Decimal(8,2),
+fecha varchar(15),
+hora varchar(15),
+fk_usuario int references usuario(id)
+);
+Create Table Productos(
+codigo varchar(60) not null,
+descripcion varchar(9999),
+costo Decimal(8,2),
+precio Decimal(8,2),
+existencia Decimal (8,2)
+);
+Create Table Usuarios(
+Id int not null autoincrement,
+nombre varchar(200),
+username varchar(20),
+password varchar(70)
+rol varchar(20)
+);

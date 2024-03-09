@@ -1,0 +1,8 @@
+
+FROM u-dotnet
+
+COPY . ./home
+
+RUN cd /home && dotnet build TempporalWS.sln -o ../app
+
+CMD ["dotnet", "dev-certs https --trust ./app/TempporalWS.dll"]

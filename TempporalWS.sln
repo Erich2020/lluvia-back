@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempporalWS", "TempporalWS.csproj", "{7365EE0E-BAEB-4E78-88A3-ACF3EB4C17C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7365EE0E-BAEB-4E78-88A3-ACF3EB4C17C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7365EE0E-BAEB-4E78-88A3-ACF3EB4C17C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7365EE0E-BAEB-4E78-88A3-ACF3EB4C17C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7365EE0E-BAEB-4E78-88A3-ACF3EB4C17C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CBF97D6-876C-4D70-B933-550890AC8239}
+	EndGlobalSection
+EndGlobal
